@@ -1,0 +1,65 @@
+html{
+    margin: 0px 10px 0px 20px;
+}
+
+h1{
+    text-align: center;
+}
+section{
+    border: 1px solid black;
+    width: 31%;
+    float: left;
+    padding-left: 10px;
+    margin: 5px;
+    background-color: dimgray;
+    
+}
+
+div{
+    border: 1px solid black;
+    width: 70px;
+    float: right;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+
+div#chicken{
+    background-color: bisque;
+}
+
+div#beef{
+    background-color: rosybrown;
+}
+
+div#pork{
+    background-color: coral;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    section.chicken{
+        width: 45%;
+    }
+    section.beef{
+        width: 45%;
+    }
+    section.pork{
+        width: 92.7%;
+    }
+    
+}
+
+
+@media (max-width: 767px){
+    section.chicken{
+        width: 92.7%;
+    }
+    section.beef{
+        width: 92.7%;
+    }
+    section.pork{
+        width: 92.7%;
+    }
+    
+}
